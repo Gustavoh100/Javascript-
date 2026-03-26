@@ -1,0 +1,12 @@
+algoritmo "calcular o raio de um circulo em cemtimetro"
+var 
+raio : inteiro
+perimetro : real
+ inicio 
+escreval("Digite o raio de um circulo")
+leia(raio)
+ perimetro <- 2*3.14159 * raio 
+
+escreval("perimetro é : " perimetro "cm")
+
+ fimalgoritmoss

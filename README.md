@@ -1,2 +1,2 @@
-# Javascript-
-atividades do javascript 
+# Javasc
+Exercicios do javascript 
