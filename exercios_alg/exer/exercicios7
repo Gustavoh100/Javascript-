@@ -1,0 +1,47 @@
+algoritmo "atividade7"
+var
+   idade: inteiro
+   peso: real
+inicio
+   escreva("Digite a idade: ")
+   leia(idade)
+
+   escreva("Digite o peso: ")
+   leia(peso)
+
+   se idade < 20 entao
+      se peso <= 60 entao
+         escreval("Grupo 9")
+      senao
+         se peso <= 90 entao
+            escreval("Grupo 8")
+         senao
+            escreval("Grupo 7")
+         fimse
+      fimse
+
+   senao
+      se idade <= 50 entao
+         se peso <= 60 entao
+            escreval("Grupo 6")
+         senao
+            se peso <= 90 entao
+               escreval("Grupo 5")
+            senao
+               escreval("Grupo 4")
+            fimse
+         fimse
+
+      senao
+         se peso <= 60 entao
+            escreval("Grupo 3")
+         senao
+            se peso <= 90 entao
+               escreval("Grupo 2")
+            senao
+               escreval("Grupo 1")
+            fimse
+         fimse
+      fimse
+   fimse
+fimalgoritmo

@@ -1,0 +1,15 @@
+algoritmo "atividade8"
+var
+   salario: real
+inicio
+   escreva("Salário: ")
+   leia(salario)
+
+   se salario <= 300 entao
+      salario <- salario * 1.35
+   senao
+      salario <- salario * 1.15
+   fimse
+
+   escreval("Novo salário: ", salario)
+fimalgoritmo
