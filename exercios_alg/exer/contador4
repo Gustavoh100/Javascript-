@@ -1,0 +1,62 @@
+algoritmo "atividade4 "
+ 
+var
+   contador: inteiro
+   sexo: caractere
+   altura, maior, menor, somaMulheres, mediaMulheres: real
+   qtdHomens, qtdMulheres: inteiro
+ 
+inicio
+   maior <- 0
+   menor <- 0
+   somaMulheres <- 0
+   qtdHomens <- 0
+   qtdMulheres <- 0
+ 
+   para contador de 1 ate 15 faca
+      escreva("Digite a altura: ")
+      leia(altura)
+ 
+      escreva("Digite o sexo (M/F): ")
+      leia(sexo)
+ 
+   
+      se contador = 1 entao
+         maior <- altura
+         menor <- altura
+      senao
+         se altura > maior entao
+            maior <- altura
+         fimse
+ 
+         se altura < menor entao
+            menor <- altura
+         fimse
+      fimse
+ 
+   
+      se sexo = "M" ou sexo = "m" entao
+         qtdHomens <- qtdHomens + 1
+      fimse
+ 
+   
+      se sexo = "F" ou sexo = "f" entao
+         somaMulheres <- somaMulheres + altura
+         qtdMulheres <- qtdMulheres + 1
+      fimse
+ 
+   fimpara
+ 
+ 
+   se qtdMulheres > 0 entao
+      mediaMulheres <- somaMulheres / qtdMulheres
+   senao
+      mediaMulheres <- 0
+   fimse
+ 
+   escreval("Número de homens: ", qtdHomens)
+   escreval("Maior altura: ", maior)
+   escreval("Menor altura: ", menor)
+   escreval("Média das mulheres: ", mediaMulheres)
+ 
+fimalgoritmo

@@ -1,11 +1,8 @@
-algoritmo " contador 2 "
+algoritmo " atividade2 "
 
 var
  idade , contador , faixa , faixa2 , faixa3 , faixa4 ,faixa5 : inteiro
 
-
- 
-  
 inicio 
 contador<-0 
 faixa <-0 

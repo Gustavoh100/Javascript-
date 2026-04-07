@@ -1,0 +1,45 @@
+
+algoritmo "atividade3"
+var 
+ voto , empresarios , candidato1 , candidato2 , candidato3 , candidato4 ,nulo , branco : inteiro 
+
+inicio 
+voto <- 0 
+empresarios<- 0 
+candidato1<- 0 
+candidato2 <- 0 
+candidato3<- 0  
+candidato4<- 0 
+nulo <- 0 
+branco <- 0 
+ enquanto empresarios < 10 faca 
+ escreval("Digite seu voto : ")
+ leia(voto)
+
+ se voto = 1 entao 
+ candidato1 <- candidato1 +1 
+ senao se voto = 2 entao 
+ candidato2 <- candidato2 + 1
+ senao se voto = 3 entao 
+ candidato3 <- candidato3 + 1
+ senao se voto = 4 entao 
+ candidato4 <- candidato4 + 1
+ senao se voto = 5 entao 
+ nulo <- nulo + 1
+ senao se voto = 6 entao 
+ branco <- branco  + 1
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ empresarios <- empresarios + 1 
+ fimenquanto
+ escreval ("candidato 1 votos: "candidato1)
+ escreval ("candidato 2 votos: "candidato2)
+ escreval ("candidato 3 votos : "candidato3)
+ escreval ("candidato 4 votos : "candidato4)
+ escreval ("nulo votos  : "nulo)
+ escreval ("branco votos : "branco )
+ fimalgoritmo

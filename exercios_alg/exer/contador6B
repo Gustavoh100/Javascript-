@@ -1,0 +1,17 @@
+algoritmo "Atividade 6B"
+ 
+var
+   numero :inteiro
+   soma: real
+ 
+inicio
+   soma <- 0
+ 
+   para numero de 1 ate 50 faca
+      soma <- soma + ((2 * numero - 1) / numero)
+   fimpara
+ 
+   escreval("Resultado da sequência B: ", soma)
+ 
+fimalgoritmo
+ 
