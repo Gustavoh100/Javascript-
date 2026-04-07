@@ -1,0 +1,55 @@
+algoritmo " contador 2 "
+
+var
+ idade , contador , faixa , faixa2 , faixa3 , faixa4 ,faixa5 : inteiro
+
+
+ 
+  
+inicio 
+contador<-0 
+faixa <-0 
+faixa2 <-0 
+faixa3 <-0 
+faixa4 <-0
+faixa5 <-0
+
+
+enquanto contador <15 faca 
+escreval ("Digite sua idade:")
+leia(idade)
+
+se idade >= 1 e idade <= 15 entao 
+faixa <- faixa + 1
+senao se idade <= 30 entao 
+faixa2 <- faixa2 + 1
+senao se idade <= 45 entao 
+faixa3 <- faixa3 + 1
+senao se idade <= 60 entao 
+faixa4 <- faixa4 + 1
+senao 
+faixa5 <- faixa5 + 1 
+
+fimse
+fimse
+fimse
+fimse
+contador <- contador + 1 
+fimenquanto
+escreval("quantidade na faixetaria de 1 a 15 :",faixa )
+escreval("quantidade na faixetaria:",faixa2 )
+escreval("quantidade na faixetaria:",faixa3 )
+escreval("quantidade na faixetaria:",faixa4 )
+escreval("quantidade na faixetaria:",faixa5 )
+
+
+
+
+
+
+
+
+
+
+fimalgoritmo
+ 

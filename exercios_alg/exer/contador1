@@ -1,0 +1,20 @@
+algoritmo "ativiadade1"
+
+var
+  idade , contador , maior18 : inteiro
+inicio
+    contador <- 0
+    maior18 <- 0
+    enquanto contador < 10 faca 
+      escreval("Digite sua idade:", idade )
+     leia(idade)
+
+     se idade>= 18 entao 
+      maior18 <- maior18 + 1 
+      
+     fimse
+     contador <- contador + 1 
+     
+  fimenquanto
+  escreval("maiores de 18 : ", maior18)
+fimalgoritmo
