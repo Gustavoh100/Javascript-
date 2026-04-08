@@ -1,17 +1,17 @@
 algoritmo "atividade4 "
  
 var
-   contador: inteiro
+   contador, QHomens, QMulheres: inteiro
    sexo: caractere
    altura, maior, menor, somaMulheres, mediaMulheres: real
-   qtdHomens, qtdMulheres: inteiro
+
  
 inicio
    maior <- 0
    menor <- 0
    somaMulheres <- 0
-   qtdHomens <- 0
-   qtdMulheres <- 0
+   QHomens <- 0
+   QMulheres <- 0
  
    para contador de 1 ate 15 faca
       escreva("Digite a altura: ")
@@ -27,34 +27,33 @@ inicio
       senao
          se altura > maior entao
             maior <- altura
-         fimse
- 
+        
          se altura < menor entao
             menor <- altura
-         fimse
-      fimse
- 
-   
+
       se sexo = "M" ou sexo = "m" entao
-         qtdHomens <- qtdHomens + 1
-      fimse
- 
-   
+         QHomens <- QHomens + 1
+      
       se sexo = "F" ou sexo = "f" entao
          somaMulheres <- somaMulheres + altura
-         qtdMulheres <- qtdMulheres + 1
+         QMulheres <- QMulheres + 1
       fimse
+      fimse 
+      fimse 
+      fimse 
+      fimse 
  
+
    fimpara
  
  
-   se qtdMulheres > 0 entao
-      mediaMulheres <- somaMulheres / qtdMulheres
+   se QMulheres > 0 entao
+      mediaMulheres <- somaMulheres / QMulheres
    senao
       mediaMulheres <- 0
    fimse
  
-   escreval("Número de homens: ", qtdHomens)
+   escreval("Número de homens: ", QHomens)
    escreval("Maior altura: ", maior)
    escreval("Menor altura: ", menor)
    escreval("Média das mulheres: ", mediaMulheres)

@@ -1,0 +1,17 @@
+algoritmo "atividade5"
+ 
+var
+   F, C: real
+ 
+inicio
+   F<- 50
+ 
+   escreval("Fahrenheit   Centigrados")
+ 
+   enquanto F <= 65 faca
+      C <- 5/9 * (F - 32)
+      escreval(F:5:1, "  |  ", C:6:2)
+      F <- F + 1
+   fimenquanto
+ 
+fimalgoritmo

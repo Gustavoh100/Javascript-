@@ -1,4 +1,4 @@
-algoritmo "Atividade 6A"
+algoritmo "atividade6A"
  
 var
    numero: inteiro
@@ -8,7 +8,7 @@ inicio
    soma <- 0
  
    para numero de 1 ate 10 faca
-      soma <- soma + (numero / (numero * numero))
+   soma <- soma + (numero / (numero * numero))
    fimpara
  
    escreval("Resultado da sequência A: ", soma)

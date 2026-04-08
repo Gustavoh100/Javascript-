@@ -1,0 +1,13 @@
+algoritmo "exercicios1"
+var 
+numero , contador , resultado : inteiro 
+inicio 
+contador<-1
+numero <- 3 
+enquanto contador <= 10  faca
+  resultado <- numero * contador 
+
+ escreval( resultado)
+contador <- contador + 1
+ fimenquanto
+ fimalgoritmo
