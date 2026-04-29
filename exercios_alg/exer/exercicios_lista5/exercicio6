@@ -1,0 +1,51 @@
+//Não é possivel usar o para pois não estimula um limite de contador 
+algoritmo "exercicio 6"
+var
+  jogadores: inteiro
+  idade : inteiro
+  menor18:inteiro
+  mais80 : inteiro
+  peso , altura : real
+  mediaI : inteiro
+  Qjogadores: inteiro
+ numero: inteiro
+ idades: inteiro 
+ ALturas : real 
+ mediaA: real
+inicio
+  Qjogadores <- 0
+  numero<- 99
+  
+  enquanto numero  <> 0 faca
+    escreval ("digite o nome jogador:")
+    leia(jogadores)
+    escreval("Digite sua idade")
+    leia(idade)
+    idades <- idades + idade
+    se idade > 1 e idade < 18 entao
+      menor18 <- menor18+1 
+    fimse
+      escreval("digite sua altura")
+      leia(altura)
+      alturas <- alturas + altura
+      escreval ("digite seu peso :" )
+      leia(peso )
+      se peso > 80 entao
+        mais80<- mais80
+      fimse
+    Qjogadores<- Qjogadores + 1
+
+    escreval ("digite um numero diferente de 0 se quiser continuar ")
+    leia (numero)
+
+
+  fimenquanto
+
+escreval("quantidade de JG menor 18 " , menor18 )
+mediaI <- idades / Qjogadores
+escreval(" media idades " , mediaI  )
+mediaA <- alturas / Qjogadores
+escreval ("media alturas " , mediaA)
+escreval ("quantidade de maiores de 80 kg " mais80)
+fimalgoritmo
+/

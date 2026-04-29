@@ -1,0 +1,14 @@
+algoritmo " exercicios3"
+var  
+numero, fatorial: inteiro 
+
+inicio 
+escreval("Digite um numero positivo: ")
+leia (numero)
+fatorial <- numero 
+enquanto numero > 1 faca 
+numero <- numero - 1 
+fatorial <- fatorial * numero 
+fimenquanto
+escreval(fatorial)
+fimalgoritmo

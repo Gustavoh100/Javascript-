@@ -1,0 +1,37 @@
+//Não é possivel usar o para pois não estimula um limite de contador 
+algoritmo "exercicio 7"
+var
+  fim , Qc , veiculo , Qvp , acidentes , Qa , indice , Mi , Ma2 : inteiro
+  cidade: caractere
+  Ma , Qv : real
+inicio
+  Qc<- 0
+  fim<- 1000
+  Mi <- 0
+  enquanto fim <> 0 faca
+    escreval ("Digite a Cidade :")
+    leia(cidade)
+    Qc<-Qc + 1
+    escreval("quantidade de veiculos :  ")
+    leia (veiculo )
+    Qv <- Qv + acidentes
+    escreval ("quantidade de acidentes:")
+    leia(acidentes )
+    Qa <- Qa + acidentes 
+    se acidentes > Mi entao
+      Mi <- acidentes
+    fimse
+    se veiculo <2000 entao
+      Qvp<- Qvp+1
+      Ma2 <- Ma2 + acidentes
+    fimse
+    escreval ("para parar digite 0 ")
+    leia (fim)
+  fimenquanto
+  escreval ("maior indece de acidentes " , Mi )
+  Qv <- Qv/Qc
+  escreval ("Quantidade  em media de veiculos ", Qv )
+  Ma <- (Ma/Qvp)
+  escreval ("media de acidentes em cidades com menos de 2000 veiculos " Ma )
+fimalgoritmo
+

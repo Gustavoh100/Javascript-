@@ -1,0 +1,11 @@
+algoritmo "exercicios2"
+var 
+contador : inteiro 
+inicio 
+
+
+para contador de 20 ate 1 passo -2 faca
+ escreval( contador )
+ fimpara
+
+ fimalgoritmo
